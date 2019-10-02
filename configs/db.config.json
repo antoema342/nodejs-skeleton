@@ -8,10 +8,10 @@
         "dialect": "mysql"
     },
     "development": {
-        "host": "43.245.184.30",
+        "host": "dev_host",
         "port": "3306",
         "username": "root",
-        "password": "passwordroot5758",
+        "password": "dev_pass",
         "database": "meeber_pos_v2_auth",
         "dialect": "mysql"
     },
