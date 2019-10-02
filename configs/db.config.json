@@ -1,0 +1,26 @@
+{
+    "localhost": {
+        "host": "localhost",
+        "port": "3306",
+        "username": "root",
+        "password": "",
+        "database": "meeber_pos_v2_category",
+        "dialect": "mysql"
+    },
+    "development": {
+        "host": "43.245.184.30",
+        "port": "3306",
+        "username": "root",
+        "password": "passwordroot5758",
+        "database": "meeber_pos_v2_auth",
+        "dialect": "mysql"
+    },
+    "production": {
+        "host": "production_db_url",
+        "port": "5432",
+        "username": "",
+        "password": "",
+        "database": "skeleton-db",
+        "dialect": "postgres"
+    }
+}

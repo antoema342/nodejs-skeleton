@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-local": "NODE_ENV=localhost cd node_modules/.bin && nodemon ./index.js --exec babel-node",
+    "start-dev": "NODE_ENV=development ./node_modules/.bin/nodemon ./index.js --exec babel-node",
+    "start-devwin": "NODE_ENV=development cd node_modules/.bin && NODE_ENV=development nodemon ./index.js --exec babel-node",
+    "start-prod": "NODE_ENV=production cd node_modules/.bin && nodemon ./index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-nodemon": "node ./node_modules/.bin/nodemon",
+    "start-index": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^1.18.11",
+    "pg": "^7.5.0",
+    "sequelize": "^4.41.0",
+    "uuid-parse": "^1.1.0",
+    "winston": "^3.1.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "CATEGORY-SERVICE",
+    "port": 5400,
+    "middleURL": "/v1",
+    "secretKey": "2C1219C02B1E7647023B58D8B6A7254C508F088F889D8ADA81209D01A889933D",
+    "ttl": "1000d"
+}
